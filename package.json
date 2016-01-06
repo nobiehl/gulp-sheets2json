@@ -6,6 +6,10 @@
   "scripts": {
     "test": "test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/nobiehl/gulp-sheet2json"
+  },
   "keywords": [
     "gulp",
     "json",
