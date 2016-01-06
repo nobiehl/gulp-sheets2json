@@ -16,3 +16,4 @@ proc.write(file);
 proc.on('data', function(data){    
     console.log(data.contents.toString());
 });
+
