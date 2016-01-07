@@ -28,6 +28,7 @@
 
 # OS generated files #
 ######################
+~$*
 .DS_Store
 .DS_Store?
 ._*
@@ -36,5 +37,7 @@
 ehthumbs.db
 Thumbs.db
 
-node_modules/*
 json/*
+tests/out/*
+node_modules/*
+
