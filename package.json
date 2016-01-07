@@ -2,7 +2,7 @@
   "name": "gulp-sheets2json",
   "version": "0.0.1",
   "description": "converts sheets of an excel file into a json files",
-  "main": "sheets2json.js",
+  "main": "index.js",
   "scripts": {
     "test": "test.js"
   },
