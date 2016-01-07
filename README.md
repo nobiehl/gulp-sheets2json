@@ -1,4 +1,4 @@
-# Excel sheets to json converter #
+# Excel sheets to JSON converter #
 
 Simple gulp plugin for converting excel sheets into json files.
 
