@@ -1,29 +1,35 @@
-# README #
+# Excel sheets to json converter #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Simple gulp plugin for converting excel sheets into json files.
 
-### What is this repository for? ###
+### Version ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+0.0.1
 
-### How do I get set up? ###
+### Install ###
 
-* Summary of set up
-* Configuration
+`npm install gulp-sheets2json --save
+
+### Usage ###
+
+<code>
+var gulp = require('gulp'),
+s2j = require('gulp-sheets2json'),
+
+var gulp = require('gulp'),
+    s2j = require('./lib/sheets2json');
+
+gulp.task("bulid:json", function () {
+    gulp.src("tests/Book1.xlsx")
+        .pipe(s2j({ filter: "First" }))
+        // do some further stuff (transform, beautify, etc.)
+        .pipe(gulp.dest('json'));
+});
+
+gulp.task("default", ["bulid:json"], function () {
+    gulp.watch("tests/Book1.xlsx", ["bulid:json"])
+});
+</code>
+
 * Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+gulp-util, minimatch, through2, vinyl, xlsx
