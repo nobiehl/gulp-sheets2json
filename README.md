@@ -14,6 +14,9 @@ Simple gulp plugin for converting excel sheets into json files.
 
 * * *
 
+```
+#!javascript
+
 var gulp = require('gulp'),
 s2j = require('gulp-sheets2json'),
 
@@ -31,6 +34,8 @@ gulp.task("default", ["bulid:json"], function () {
     gulp.watch("tests/Book1.xlsx", ["bulid:json"])
 });
 
+
+```
 * * *
 
 ### Dependencies ###
