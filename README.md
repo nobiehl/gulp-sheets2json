@@ -1,6 +1,12 @@
+# Excel sheets to JSON converter #
+
 # Excel sheets to json converter #
 
-Simple gulp plugin for converting excel sheets into json files.
++ Simple gulp plugin for converting excel sheets into json files. 
+
+    + Creates a JSON file for each sheet. The name of the file is equal to the name of the sheet (tab).
+
+    + You can choose which sheet should be exported, by using a filter. Filters can be defined as - minimatch - expession.
 
 ### Version ###
 
@@ -8,7 +14,7 @@ Simple gulp plugin for converting excel sheets into json files.
 
 ### Install ###
 
-`npm install gulp-sheets2json --save
+npm install gulp-sheets2json --save
 
 ### Usage ###
 
