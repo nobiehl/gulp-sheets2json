@@ -1,1 +1,1 @@
-require("./lib/sheets2json")
+module.exports = require("./lib/sheets2json")

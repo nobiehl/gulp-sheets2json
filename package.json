@@ -15,16 +15,16 @@
     "json",
     "excel",
     "gulpplugin"
-  ],  
+  ],
   "author": "Norman Biehl-Alinski",
   "license": "MIT",
-  "dependencies": {        
+  "dependencies": {
     "gulp-util": "^3.0.7",
     "minimatch": "^3.0.0",
     "through2": "^2.0.0",
     "vinyl": "^1.1.0",
     "xlsx": "^0.8.0"
-  },  
+  },
   "devDependencies": {
     "fs": "0.0.2",
     "gulp": "^3.9.0",
