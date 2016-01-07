@@ -33,5 +33,5 @@ gulp.task("default", ["bulid:json"], function () {
 
 * * *
 
-* Dependencies
+### Dependencies ###
 gulp-util, minimatch, through2, vinyl, xlsx
