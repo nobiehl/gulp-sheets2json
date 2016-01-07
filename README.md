@@ -8,7 +8,7 @@ Simple gulp plugin for converting excel sheets into json files.
 
 ### Install ###
 
-`npm install gulp-sheets2json --save
+npm install gulp-sheets2json --save
 
 ### Usage ###
 
