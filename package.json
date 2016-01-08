@@ -1,6 +1,6 @@
 {
   "name": "gulp-sheets2json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "converts sheets of an excel file into a json files",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/nobiehl/gulp-sheets2json.git"
   },
   "keywords": [
-    "xlsx",  
+    "xlsx",
     "gulp",
     "json",
     "excel",
@@ -26,8 +26,9 @@
     "vinyl": "^1.1.0",
     "xlsx": "^0.8.0"
   },
-  "devDependencies": {    
+  "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-beautify": "^2.0.0"
+    "gulp-beautify": "^2.0.0",
+    "gulp-print": "^2.0.1"
   }
 }
