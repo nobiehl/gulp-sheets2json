@@ -12,7 +12,7 @@
 
 ### Install ###
 
-npm install gulp-sheets2json --save
+npm install gulp-sheets2json
 
 ### Usage ###
 
