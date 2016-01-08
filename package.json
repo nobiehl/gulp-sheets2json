@@ -11,12 +11,13 @@
     "url": "https://github.com/nobiehl/gulp-sheets2json.git"
   },
   "keywords": [
+    "xlsx",  
     "gulp",
     "json",
     "excel",
     "gulpplugin"
   ],
-  "author": "Norman Biehl-Alinski",
+  "author": "nobiehl",
   "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.7",
@@ -25,8 +26,7 @@
     "vinyl": "^1.1.0",
     "xlsx": "^0.8.0"
   },
-  "devDependencies": {
-    "fs": "0.0.2",
+  "devDependencies": {    
     "gulp": "^3.9.0",
     "gulp-beautify": "^2.0.0"
   }
