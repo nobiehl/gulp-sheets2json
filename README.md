@@ -23,21 +23,19 @@ npm install gulp-sheets2json
 #!javascript
 
 var gulp = require('gulp'),
-s2j = require('gulp-sheets2json'),
+    s2j = require('gulp-sheets2json');
 
-var gulp = require('gulp'),
-    s2j = require('./lib/sheets2json');
-    
 gulp.task("bulid:json", function () {
-    gulp.src("tests/Book1.xlsx")
-        .pipe(s2j({ filter: "First" }))
+    gulp.src("SampleBook.xlsx")
+        .pipe(s2j({ filter: "+(First|Second)" }))
         // do some further stuff (transform, beautify, etc.)
-        .pipe(gulp.dest('json'));
+        .pipe(gulp.dest('.out'));
 });
 
 gulp.task("default", ["bulid:json"], function () {
-    gulp.watch("tests/Book1.xlsx", ["bulid:json"])
+    gulp.watch("SampleBook.xlsx", ["bulid:json"])
 });
+
 ```
 * * *
 
