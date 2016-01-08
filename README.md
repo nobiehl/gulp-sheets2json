@@ -5,6 +5,8 @@
     + Creates a JSON file for each sheet. The name of the file is equal to the name of the sheet (tab).
 
     + You can choose which sheet should be exported, by using a filter. Filters can be defined as - minimatch - expession.
+    
+    + If you want to ignore some columns you can add an exclamation mark (!) at the very beginning of the column header.
 
 ### Version ###
 
@@ -17,7 +19,6 @@ npm install gulp-sheets2json
 ### Usage ###
 
 * * *
-
 ```
 #!javascript
 
@@ -37,8 +38,6 @@ gulp.task("bulid:json", function () {
 gulp.task("default", ["bulid:json"], function () {
     gulp.watch("tests/Book1.xlsx", ["bulid:json"])
 });
-
-
 ```
 * * *
 
