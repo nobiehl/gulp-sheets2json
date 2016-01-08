@@ -40,4 +40,5 @@ Thumbs.db
 json/*
 tests/out/*
 node_modules/*
+**/.out/*
 

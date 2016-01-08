@@ -6,7 +6,7 @@ var s2j = require('../lib/sheets2json'),
     
 var file = new File({
     path: 'Book1.xlsx',
-    contents: fs.readFileSync('./tests/Book1.xlsx')
+    contents: fs.readFileSync('tests\\Book1.xlsx')
 });
 
 var proc = s2j();
