@@ -4,7 +4,7 @@
 
     + Creates a JSON file for each sheet. The name of the file is equal to the name of the sheet (tab)
 
-    + You can choose which sheet should be exported, by using a filter. Filters can be defined as - minimatch - expession
+    + You can choose which sheet should be exported, by using a filter. Filters can be defined as - minimatch - expression
     
     + If you want to ignore some columns you can add an exclamation mark (!) at the very beginning of the column header
     
@@ -42,6 +42,3 @@ gulp.task("default", ["bulid:json"], function () {
 
 ```
 * * *
-
-### Dependencies ###
-gulp-util, minimatch, through2, vinyl, xlsx
